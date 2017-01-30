@@ -1,0 +1,12 @@
+{
+  "name": "stylelint-config",
+  "version": "0.0.1",
+  "description": "A sharable config for stylelint",
+  "license": "MIT",
+  "author": "Danny Andrews <lunde.andrews@gmail.com>",
+  "main": "stylelint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danny-andrews/stylelint-config"
+  }
+}
