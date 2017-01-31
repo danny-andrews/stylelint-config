@@ -1,5 +1,5 @@
 {
-  "name": "stylelint-config",
+  "name": "@danny.andrews/stylelint-config",
   "version": "1.0.0",
   "description": "A sharable config for stylelint",
   "keywords": [
