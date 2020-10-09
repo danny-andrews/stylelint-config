@@ -51,13 +51,10 @@ module.exports = {
     "shorthand-property-no-redundant-values": true,
     "string-quotes": "double",
     "value-no-vendor-prefix": true,
-    "csstools/value-no-unknown-custom-properties": [
-      true,
-      { importFrom: ["./src/css/variables.css"] },
-    ],
+    "csstools/value-no-unknown-custom-properties": true,
     "mavrin/stylelint-declaration-use-css-custom-properties": {
-      cssDefinitions: ["color", "length"],
-      ignoreValues: ["/^0$/", "1px", "1rem"],
+      cssDefinitions: ["color"],
+      ignoreValues: ["/^0$/"],
     },
     "order/properties-order": ["composes", ...cssProperties],
   },
