@@ -13,9 +13,12 @@
     "type": "git",
     "url": "https://github.com/danny-andrews/stylelint-config"
   },
-  "devDependencies": {
+  "peerDependencies": {
+    "stylelint": "^13.0.0"
+  },
+  "dependencies": {
+    "@mavrin/stylelint-declaration-use-css-custom-properties": "^1.0.0-alpha.1",
     "css-properties": "^2.0.2",
-    "stylelint": "^13.7.2",
     "stylelint-config-standard": "^20.0.0",
     "stylelint-order": "^4.1.0",
     "stylelint-value-no-unknown-custom-properties": "^3.0.0"
