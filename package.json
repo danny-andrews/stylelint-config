@@ -1,24 +1,23 @@
 {
   "name": "@danny.andrews/stylelint-config",
   "version": "1.0.0",
-  "description": "A sharable config for stylelint",
+  "description": "My sharable config for stylelint",
   "keywords": [
     "stylelint",
     "stylelint-config"
   ],
   "license": "MIT",
   "author": "Danny Andrews <lunde.andrews@gmail.com>",
-  "main": "stylelint.config.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/danny-andrews/stylelint-config"
   },
-  "scripts": {
-    "lint": "./node_modules/.bin/stylelint test-file.scss"
-  },
   "devDependencies": {
-    "stylelint": "^7.7.1",
-    "stylelint-config-property-sort-order-smacss": "^1.0.2",
-    "stylelint-config-standard": "15.0.1"
+    "css-properties": "^2.0.2",
+    "stylelint": "^13.7.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-value-no-unknown-custom-properties": "^3.0.0"
   }
 }
